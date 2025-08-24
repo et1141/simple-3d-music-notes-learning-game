@@ -1,8 +1,6 @@
 # Simple 3D Music Notes Learning Game
 
 
-## Description
-
 ## Game rules
 1. Before the game starts, the user sets the initial game time (e.g., 20 seconds), and bonus for playing the correct note.
 2. The timer counts down. The game continues while **time > 0**.
@@ -46,7 +44,8 @@ A simple 3D piano note trainer built with A‑Frame + SDS. A random target note 
 <div id="game" class="section">
   <div id="game-root" class="w3-container">
     <iframe id="game-frame" src="http://localhost:8000/game"
-            width="100%" height="800px" style="border:none;"></iframe>
+            width="100%" height="800px" style="border:none;">
+    </iframe>
   </div>
 </div>
 ```
