@@ -1,0 +1,22 @@
+{
+  "name": "vga-aframe",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "aframe": "~1.5.0",
+    "aframe-extras": "^7.5.4",
+    "aframe-physics-system": "git://github.com/n5ro/aframe-physics-system.git",
+    "go-piano": "^1.0.0",
+    "pitchy": "^4.1.0",
+    "spatial-design-system": "^1.8.0",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
